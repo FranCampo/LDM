@@ -5,24 +5,103 @@
         <meta name="description" content="Practica2">
         <meta charset="UTF-8">
         <title>Formulario</title>
+        <style>
+            legend{
+                font-family: 'Arial';
+                font-size: 20pt;
+                color:chartreuse;
+            }
+            body{
+                font-family: 'Times New Roman';
+                font-size: 15pt;
+                background-image: url(hotel.jpg);
+                color: ;
+            }
+        </style>
     </head>
     <body>
         <h1>Mi Hotel reserva on line</h1>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" value=""><br>
-            <br>
-            <label for="apellidos">Apellidos</label>
-            <input type="text" name="apellidos" value=""><br>
-            <br>
-            <label for="Teléfono">Teléfono de contacto:</label>
-            <input type="text" name="telefono" value=""><br>
-            <br>
-            <label for="e-mail">E-mail:</label>
-            <input type="text" name="e-mail" value=""><br>
-            <br>
-            <label for="Noches">Número de noches:</label>
-            <input type="text" name="Noches" value=""><br>
+        <form action="mailto:reservasmihotel.com">
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <label>Nombre: </label><input type="text" name="nombre">
+                <label>Apellidos: </label><input type="text" name="apellidos">
+                <label>Teléfono de contacto: </label><input type="text" name="telefono">
+                <br>
+                <br>
+                <label>E-mail: </label><input type="text" name="e-mail">
+                <label>Número de noches: </label><input type="number" name="Noches">
+            </fieldset>
+            <fieldset>
+                <legend>Fecha de entrada</legend>
+                <label>Día: </label>
+                <select name="Dia">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+                <label>Mes: </label>
+                <select name="mes">
+                    <option>Enero</option>
+                    <option>Febrero</option>
+                    <option>Marzo</option>
+                    <option>Abril</option>
+                    <option>Mayo</option>
+                    <option>Junio</option>
+                    <option>Julio</option>
+                    <option>Agosto</option>
+                    <option>Septiembre</option>
+                    <option>Octubre</option>
+                    <option>Noviembre</option>
+                    <option>Diciembre</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Habitación</legend>
+                <label>Tipo: </label>
+                <input type="radio" name="Habitación" value="Simple">Simple
+                <input type="radio" name="Habitación" value="Doble">Doble
+                <input type="radio" name="Habitación" value="Matrimonio">Matrimonio<br>
+                <br>
+                <label>Servicios: </label>
+                <input type="checkbox" name="Servicios" value="Desayuno">Desayuno
+                <input type="checkbox" name="Servicios" value="Comida">Comida
+                <input type="checkbox" name="Servicios" value="Cena">Cena
+                <input type="checkbox" name="Servicios" value="Cama supletoria">Cama Supletoria
+            </fieldset>
+            <label>Comentarios: </label><br>
+                <textarea name="Comentarios" cols="50" rows="5"></textarea><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
         </form>
     </body>
 </html>
