@@ -24,6 +24,7 @@ body{
 #lista_ordenada legend{
     font-size: 30px;
     color: black;
+    text-align: center;
 }
 #tabla{
     text-align: center;
@@ -48,6 +49,7 @@ body{
 #lista_desordenada legend{
     font-size: 30px;
     color: black;
+    text-align: center;
 }
 .Paginas{
     background-color: cornsilk;
