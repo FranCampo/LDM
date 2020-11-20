@@ -16,38 +16,42 @@ body{
 #lista_ordenada{
     color:blue;
     background-color: cornsilk;
-    opacity: 70%;
+    opacity: 90%;
 }
 #lista_ordenada ol{
     opacity: 100%;
 }
 #lista_ordenada legend{
-    font-size: 40px;
+    font-size: 30px;
     color: black;
 }
 #tabla{
     text-align: center;
     color:black;
     background-color: cornsilk;
-    opacity: 70%;
+    opacity: 90%;
 }
-#tabla td{
+#tabla table,td,th,tr{
     opacity: 100%;
+}
+#tabla h2{
+    font-size: 30px;
 }
 #lista_desordenada{
     color:red;
     background-color: cornsilk;
-    opacity: 70%;
+    opacity: 90%;
 }
 #lista_desordenada ul{
     opacity: 100%;
 }
 #lista_desordenada legend{
-    font-size: 40px;
+    font-size: 30px;
     color: black;
 }
 .Paginas{
     background-color: cornsilk;
     text-align: center;
     opacity: 70%;
+    line-height:30pt;
 }
