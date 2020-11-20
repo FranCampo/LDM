@@ -27,11 +27,11 @@ body{
 }
 #tabla{
     text-align: center;
-    color:green;
+    color:black;
     background-color: cornsilk;
     opacity: 70%;
 }
-#tabla table{
+#tabla td{
     opacity: 100%;
 }
 #lista_desordenada{
