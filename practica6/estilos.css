@@ -1,3 +1,6 @@
+body{
+    background-color: #FDF2E9;
+}
 #header{
     text-align: center;
     font-family: Arial;
@@ -6,3 +9,29 @@
     background-color: black;
     color: white;
 }
+.Imagen{
+    border: 5px solid white;
+    background-color: grey;
+}
+.contenido{
+    font-size: 20px;
+    text-align: center;
+    background-color: LightGray;
+    color: peru;
+    border: 3px solid white;
+}
+.lista_ordenada{
+    background-color: lightgray;
+    font-size: 18px;
+    border: 3px solid white;
+    text-align: center;
+    color: tomato;
+}
+.container{
+    background-color: lightyellow;
+}
+legend{
+    text-align: center;
+    color: red;
+}
+
