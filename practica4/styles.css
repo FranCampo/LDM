@@ -1,0 +1,59 @@
+#header{
+   background-color: antiquewhite; 
+   font-size: 25px;
+   font-family: Arial;
+   text-align: center;
+   color: crimson;
+   opacity: 95%;
+}
+#header p{
+    color:black;
+    opacity: 30%;
+}
+body{
+    background-image: url(fondo.jpg);
+}
+#lista_ordenada{
+    color:blue;
+    background-color: cornsilk;
+    opacity: 90%;
+}
+#lista_ordenada ol{
+    opacity: 100%;
+}
+#lista_ordenada legend{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+#tabla{
+    text-align: center;
+    color:black;
+    background-color: cornsilk;
+    opacity: 90%;
+}
+#tabla table,td,th,tr{
+    opacity: 100%;
+}
+#tabla h2{
+    font-size: 30px;
+}
+#lista_desordenada{
+    color:red;
+    background-color: cornsilk;
+    opacity: 90%;
+}
+#lista_desordenada ul{
+    opacity: 100%;
+}
+#lista_desordenada legend{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.Paginas{
+    background-color: cornsilk;
+    text-align: center;
+    opacity: 90%;
+    line-height:30pt;
+}
