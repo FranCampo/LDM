@@ -1,0 +1,28 @@
+body{
+    background-color: #2D8652;
+}
+p{
+    font-size: 25px;
+}
+h1{
+    font-size: 58px;
+    font-family: arial;
+    text-transform: capitalize;
+}
+.Primero{
+    color: white;
+    font-family: serif;
+    font-style: oblique;
+}
+.Segundo{
+    color: #f8d9ae;
+    font-family: sans-serif;
+}
+.Tercero{
+    color:#FC9E1B;
+    font-family: monospace;
+}
+.Rojo{
+    color:#E51B4D;
+    font-family: cursive;
+}
