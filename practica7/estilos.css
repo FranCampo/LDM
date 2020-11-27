@@ -27,6 +27,11 @@ em{
     font-style: normal;
     color: #018ACE;
 }
+span{
+    font-weight: bold;
+    font-style: normal;
+    color: #018ACE;
+}
 h3{
     font-style: italic;
     background-color: #9AACB4;
