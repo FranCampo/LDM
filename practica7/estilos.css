@@ -1,5 +1,5 @@
 body{
-    background-color: #DADCDD;
+    background-color: #D3DBDE;
     font-family: sans-serif;
     text-align: justify;
 }
@@ -10,7 +10,7 @@ h1{
     color: #313131;
 }
 h2{
-    background-color: hsl(200, 15%, 55%);
+    background-color:#7B929D;
     text-decoration: underline;
     color: #505050;
     font-size: 32px;
