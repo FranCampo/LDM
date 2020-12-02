@@ -1,0 +1,60 @@
+body{
+    color:white;
+    text-align: justify;
+    background-color: black;
+}
+@font-face{
+    font-family: monoton;
+    src: url(monoton.woff2)
+}
+h1{
+    text-align: center;
+    font-family: monoton;
+    color: greenyellow;
+    letter-spacing: 14px;
+    text-transform: unset;
+}
+h2{
+    background-color: greenyellow;
+}
+.Cuerpo{
+    background-image: url(matrix.png);
+    
+}
+.Contenido{
+    margin-left: 9%;
+    margin-right: 9%;
+    background-color: black;
+}
+.Pong{
+    border: white 2px solid;
+    padding: 10px;
+}
+.Imagen{
+    float: right;
+    border: white 3px solid;
+    outline: greenyellow 5px solid;
+    margin-left: 2%;
+}
+.Space_Invaders{
+    border: white 2px solid;
+    padding: 25px;
+}
+.Imagen2{
+    float: left;
+    border: white 3px solid;
+    outline: greenyellow 5px solid;
+    margin-right: 2%;
+    width: 170px;
+}
+.Pac_Man{
+    border: white 2px solid;
+    padding: 15px;
+}
+.Imagen3{
+    float: right;
+    border: white 3px solid;
+    outline: greenyellow 5px solid;
+    margin-left: 2%;
+    width: 170px;
+}
