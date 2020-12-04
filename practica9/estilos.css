@@ -10,12 +10,13 @@ body{
 h1{
     text-align: center;
     font-family: monoton;
-    color: greenyellow;
+    color: #05C705;
     letter-spacing: 14px;
     text-transform: unset;
 }
 h2{
-    background-color: greenyellow;
+    background-color: #05C705;
+    margin-top: 0px;
 }
 .Cuerpo{
     background-image: url(matrix.png);
@@ -28,33 +29,45 @@ h2{
 }
 .Pong{
     border: white 2px solid;
-    padding: 10px;
+}
+.Parrafo{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+.Parrafo1{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+}
+.Parrafo2{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
 }
 .Imagen{
     float: right;
     border: white 3px solid;
-    outline: greenyellow 5px solid;
+    outline:#05C705 5px solid;
     margin-left: 2%;
 }
 .Space_Invaders{
     border: white 2px solid;
-    padding: 25px;
 }
 .Imagen2{
     float: left;
     border: white 3px solid;
-    outline: greenyellow 5px solid;
+    outline: #05C705 5px solid;
     margin-right: 2%;
     width: 170px;
 }
 .Pac_Man{
     border: white 2px solid;
-    padding: 15px;
 }
 .Imagen3{
     float: right;
     border: white 3px solid;
-    outline: greenyellow 5px solid;
+    outline: #05C705 5px solid;
     margin-left: 2%;
     width: 170px;
 }
