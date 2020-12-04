@@ -1,12 +1,58 @@
 body{
-    background-image: url(corazon-1.svg), url(corazon-2.svg),;
+    background-image: url(corazon-1.svg), url(corazon-2.svg);
     background-position: left top, right top;
     background-repeat: repeat-y, repeat-y;
     background-size: 50px, 50px;
+    background-color: #FFEBF0;
+}
+p{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.Bloque{
+    text-align: center;
+    font-weight: bold;
+}
+.Bloque1{
+    background-image: url(manchas.png);
+    background-repeat: repeat;
+    border: black 3px solid;
+    background-size: 150px;
+    margin-left: 45px;
+    margin-right: 45px;
+    color: white;
 }
 .Bloque2{
     background-image: url(fuego.svg), url(fuego.svg), url(tallos.jpg);
     background-position: left bottom, right bottom;
     background-repeat: no-repeat, no-repeat, repeat;
-    background-size: 70px, 70px;
+    background-size: 35px, 35px, 200px;
+    border: black 3px solid;
+    margin-left: 45px;
+    margin-right: 45px;
+    color: yellow;
+}
+.Bloque3{
+    background-image: url(ojo.svg), url(hexagonos.jpg);
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    background-size: 220px, 150px;
+    border: black 3px solid;
+    margin-left: 45px;
+    margin-right: 45px;
+    color: #81191B;
+}
+.Bloque4{
+    background-image: url(caballo.svg), url(estrellas.png);
+    background-position: bottom;
+    background-repeat: repeat-x, repeat;
+    background-size: 35px, 150px;
+    border: black 3px solid;
+    margin-left: 45px;
+    margin-right: 45px;
+    color: green;
 }
