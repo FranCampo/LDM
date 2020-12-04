@@ -1,0 +1,12 @@
+body{
+    background-image: url(corazon-1.svg), url(corazon-2.svg),;
+    background-position: left top, right top;
+    background-repeat: repeat-y, repeat-y;
+    background-size: 50px, 50px;
+}
+.Bloque2{
+    background-image: url(fuego.svg), url(fuego.svg), url(tallos.jpg);
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 70px, 70px;
+}
