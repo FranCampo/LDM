@@ -1,0 +1,75 @@
+.cuerpo{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+body{
+    background-image: url(chip-arriba.jpg), url(chip-abajo.jpg);
+    background-position: left top, right top;
+    background-repeat: repeat-y, repeat-y;
+    background-size: 80px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 20px;
+}
+.PrimerParrafo{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+strong{
+    text-transform: uppercase;
+    font-size: 45px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+em{
+    
+}
+.Imagen1{
+    float: left;
+    border: solid 5px white;
+    outline: black 1px solid;
+    margin-top: 5px;
+}
+h2{
+    color:white;
+    background-color: blue;
+    font-family: monospace;
+
+}
+.SegundoParrafo{
+    text-align: justify;
+    background-color: #ACDAE4;
+    margin-left: 20%;
+}
+.TercerParrafo{
+    text-align: justify;
+    background-color: #ACDAE4;
+}
+.Imagen2{
+    float: left;
+    border: solid 5px white;
+    outline: black 1px solid;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.Imagen3{
+    float: left;
+    border: solid 5px white;
+    outline: black 1px solid;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 130px;
+}
+.CuartoParrafo{
+    text-align: justify;
+    background-color: #ACDAE4;
+}
+.Texto{
+    margin-left: 1%;
+    margin-right: 1%;
+}
