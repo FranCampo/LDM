@@ -7,6 +7,7 @@ body{
     background-position: left top, right top;
     background-repeat: repeat-y, repeat-y;
     background-size: 80px;
+    font-family: arial;
 }
 h1{
     text-align: center;
@@ -28,6 +29,15 @@ h1{
 }
 strong{
     color:black;
+}
+em{
+    color:red;
+    font-size: 20px;
+    font-weight: 750;
+    font-style: normal;
+}
+span{
+    font-weight: bold;
 }
 u{
     color: red;
@@ -60,6 +70,7 @@ h2{
     outline: black 1px solid;
     margin-right: 2%;
     margin-left: 2%;
+    margin-bottom: 2%;
 }
 .Imagen3{
     float: left;
@@ -68,6 +79,7 @@ h2{
     margin-right: 2%;
     margin-left: 2%;
     width: 130px;
+    margin-bottom: 1%;
 }
 .CuartoParrafo{
     text-align: justify;
