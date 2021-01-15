@@ -1,0 +1,67 @@
+{
+    "ciudad":"Palencia",
+    "Bares":[
+        {
+            "economico":"4",
+            "Nombre":"LaMejillonera",
+            "Acceso movilidad reducida":"no",
+            "Direccion":"Calle los Soldados, 7, 34001 Palencia",
+            "Tipo":"Restaurante",
+            "Recomendable":"5",
+            "Maps link":"https://goo.gl/maps/KNod8txRx8ukjzXEA"
+        },
+        {
+            "economico":"4",
+            "Nombre":"Nuevo Arenas",
+            "Acceso movilidad reducida":"si",
+            "Direccion":"Av. de Asturias, 6, 34005 Palencia",
+            "Tipo":"Restaurante",
+            "Recomendable":"4",
+            "Maps link":"https://goo.gl/maps/799j4vWXrues4uJy9"
+        },
+        {
+            "economico":"4",
+            "Nombre":"Zambra",
+            "Acceso movilidad reducida":"no",
+            "Direccion":"Calle Estrada, 5, 34002 Palencia",
+            "Tipo":"Pub",
+            "Recomendable":"4",
+            "Maps link":"https://goo.gl/maps/QtTWRRehXpD1nbid7"
+        },
+        {
+            "economico":"4",
+            "Nombre":"LaBelleEpoque",
+            "Acceso movilidad reducida":"no",
+            "Direccion":"Calle Cardenal Almaraz, 4, 34005 Palencia",
+            "Tipo":"Pub",
+            "Recomendable":"4",
+            "Maps link":"https://goo.gl/maps/9mmL6pTRv7iXEXPP7"
+        },
+        {
+            "economico":"4",
+            "Nombre":"Basi",
+            "Acceso movilidad reducida":"si",
+            "Direccion":"Calle de Renault - España, 10, 34004 Palencia",
+            "Tipo":"Restaurante",
+            "Recomendable":"4",
+            "Maps link":"https://goo.gl/maps/bWXHaLiXFmPzcaTz9"
+        }
+    ],
+    "Ocio":[
+        {
+            "nombre":"Bowling Sport SL",
+            "Tipo":"Ocio",
+            "Maps link":"https://goo.gl/maps/yJZs9ivPJKzgkzCN8"
+        },
+        {
+            "nombre":"Cine Avenida",
+            "Tipo":"Ocio",
+            "Maps link":"https://goo.gl/maps/DS6GdimagEbyDAEm7"
+        },
+        {
+            "nombre":"Teatro principal de Palencia",
+            "Tipo":"Ocio",
+            "Maps link":"https://goo.gl/maps/nzCwSUoQxeCacpqR7"
+        }
+    ]
+}
