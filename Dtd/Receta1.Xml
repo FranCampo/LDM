@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE address SYSTEM "Receta1.dtd">
+<!DOCTYPE receta SYSTEM "Receta1.dtd">
 <receta> Primera receta
     <titulo>...</titulo>
     <ingredientes>...</ingredientes>
