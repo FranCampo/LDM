@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE receta SYSTEM "Receta1.dtd">
+<!DOCTYPE receta SYSTEM "Receta2.dtd">
 <receta>
-    <titulo>Primera receta</titulo>
+    <parrafo>Esto es un párrafo</parrafo>
+    <titulo>...</titulo>
     <ingredientes>...</ingredientes>
     <procedimiento>...</procedimiento>
 </receta>
