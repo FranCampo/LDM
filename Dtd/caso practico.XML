@@ -7,7 +7,7 @@
             <Apellidos>Garcia Garrido</Apellidos>
             <Portal>10</Portal>
             <Piso_y_letra>3ºB</Piso_y_letra>
-            <Codigo_CuentaCorriente></Codigo_CuentaCorriente>
+            <Codigo_CuentaCorriente>ES12 1234 1234 12 1234567890</Codigo_CuentaCorriente>
             <Cargo>Presidente</Cargo>
         </Vecino>
         <Vecino>
@@ -16,7 +16,7 @@
             <Apellidos>Villafuentes Cienfuegos</Apellidos>
             <Portal>11</Portal>
             <Piso_y_letra>4ºA</Piso_y_letra>
-            <Codigo_CuentaCorriente></Codigo_CuentaCorriente>
+            <Codigo_CuentaCorriente>ES13 1234 1234 13 1234567891</Codigo_CuentaCorriente>
             <Cargo>Ninguno</Cargo>
         </Vecino>
         <Vecino>
@@ -25,7 +25,7 @@
             <Apellidos>Valles Antolin</Apellidos>
             <Portal>11</Portal>
             <Piso_y_letra>2ºC</Piso_y_letra>
-            <Codigo_CuentaCorriente></Codigo_CuentaCorriente>
+            <Codigo_CuentaCorriente>ES13 3090 0000 29 0350000083</Codigo_CuentaCorriente>
             <Cargo>Secretario</Cargo>
         </Vecino>
         <Vecino>
@@ -34,7 +34,7 @@
             <Apellidos>Cortes Rodrigo</Apellidos>
             <Portal>10</Portal>
             <Piso_y_letra>3ºD</Piso_y_letra>
-            <Codigo_CuentaCorriente></Codigo_CuentaCorriente>
+            <Codigo_CuentaCorriente>ES66 0019 0020 96 1234567890</Codigo_CuentaCorriente>
             <Cargo>Vicepresidente</Cargo>
         </Vecino>
         <Vecino>
@@ -43,7 +43,7 @@
             <Apellidos>Campo Bascones</Apellidos>
             <Portal>11</Portal>
             <Piso_y_letra>1ºB</Piso_y_letra>
-            <Codigo_CuentaCorriente></Codigo_CuentaCorriente>
+            <Codigo_CuentaCorriente>E70 1234 1234 01 0123456789</Codigo_CuentaCorriente>
             <Cargo>Vocal</Cargo>
         </Vecino>
     </Vecinos>
