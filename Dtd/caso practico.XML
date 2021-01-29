@@ -18,7 +18,7 @@
             <Portal>11</Portal>
             <Piso_y_letra>4ºA</Piso_y_letra>
             <Codigo_CuentaCorriente>ES13 1234 1234 13 1234567891</Codigo_CuentaCorriente>
-            <Cargo>Ninguno</Cargo>
+            <Cargo >Ninguno</Cargo>
         </Vecino>
         <Vecino>
             <Codigo>0003</Codigo>
