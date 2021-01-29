@@ -1,0 +1,15 @@
+<!ELEMENT Palencia (Habitantes, Comunidad, Bares, Ocios)>
+<!ELEMENT Bares (Bar+)>
+<!ELEMENT Bar (Nombre, Coste, Movilidad_reducida, Recomendable, Direccion, Tipo, Link)>
+<!ELEMENT Ocios (Ocio+)>
+<!ELEMENT Ocio (Nombre, Ubicacion)>
+<!ELEMENT Habitantes (#PCDATA)>
+<!ELEMENT Comunidad (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Coste (#PCDATA)>
+<!ELEMENT Movilidad_reducida (#PCDATA)>
+<!ELEMENT Recomendable (#PCDATA)>
+<!ELEMENT Direccion (#PCDATA)>
+<!ELEMENT Tipo (#PCDATA)>
+<!ELEMENT Link (#PCDATA)>
+<!ELEMENT Ubicacion (#PCDATA)>
