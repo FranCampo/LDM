@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Comunidad>
+    <Vecinos>
+        <Vecino>
+            <Codigo></Codigo>
+            <Nombre>Manolo</Nombre>
+            <Apellidos>Garcia Garrido</Apellidos>
+            <Portal>10</Portal>
+            <Piso_y_letra>3ºB</Piso_y_letra>
+            <Codigo_CuentaCorriente></Codigo_CuentaCorriente>
+            <Cargo>Presidente</Cargo>
+        </Vecino>
+        <Vecino>
+            <Codigo></Codigo>
+            <Nombre>Federico</Nombre>
+            <Apellidos>Villafuentes Cienfuegos</Apellidos>
+            <Portal>11</Portal>
+            <Piso_y_letra>4ºA</Piso_y_letra>
+            <Codigo_CuentaCorriente></Codigo_CuentaCorriente>
+            <Cargo>Ninguno</Cargo>
+        </Vecino>
+        <Vecino>
+            <Codigo></Codigo>
+            <Nombre>Pablo</Nombre>
+            <Apellidos>Valles Antolin</Apellidos>
+            <Portal>11</Portal>
+            <Piso_y_letra>2ºC</Piso_y_letra>
+            <Codigo_CuentaCorriente></Codigo_CuentaCorriente>
+            <Cargo>Secretario</Cargo>
+        </Vecino>
+        <Vecino>
+            <Codigo></Codigo>
+            <Nombre>Alberto</Nombre>
+            <Apellidos>Cortes Rodrigo</Apellidos>
+            <Portal>10</Portal>
+            <Piso_y_letra>3ºD</Piso_y_letra>
+            <Codigo_CuentaCorriente></Codigo_CuentaCorriente>
+            <Cargo>Vicepresidente</Cargo>
+        </Vecino>
+        <Vecino>
+            <Codigo></Codigo>
+            <Nombre>Jaime</Nombre>
+            <Apellidos>Campo Bascones</Apellidos>
+            <Portal>11</Portal>
+            <Piso_y_letra>1ºB</Piso_y_letra>
+            <Codigo_CuentaCorriente></Codigo_CuentaCorriente>
+            <Cargo>Vocal</Cargo>
+        </Vecino>
+    </Vecinos>
+</Comunidad>
