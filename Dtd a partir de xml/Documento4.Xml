@@ -15,7 +15,7 @@
             </domicilio>
         </domicilios>
     </personal>
-<pago>
-    <tipo_matricula>Matrícula Ordinaria</tipo_matricula>
-</pago>
+    <pago>
+        <tipo_matricula>Matrícula Ordinaria</tipo_matricula>
+    </pago>
 </matricula>

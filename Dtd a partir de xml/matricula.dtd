@@ -1,5 +1,5 @@
-<!ELEMENT matricula (personal+, pago?)>
-<!ELEMENT personal (dni, nombre?, titulacion?, curso_academico?, domicilios?)>
+<!ELEMENT matricula (personal+, pago)>
+<!ELEMENT personal (dni, nombre, titulacion, curso_academico, domicilios)>
 <!ELEMENT domicilios (domicilio+)>
 <!ATTLIST domicilio tipo CDATA #REQUIRED>
 <!ELEMENT domicilio (calle+)>
