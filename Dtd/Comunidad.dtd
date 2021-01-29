@@ -1,0 +1,10 @@
+<!ELEMENT Comunidad (Vecinos)>
+<!ELEMENT Vecinos (Vecino+)>
+<!ELEMENT Vecino (Codigo, Nombre, Apellidos, Portal, Piso_y_letra, Codigo_CuentaCorriente, Cargo)>
+<!ELEMENT Codigo (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT Portal (#PCDATA)>
+<!ELEMENT Piso_y_letra (#PCDATA)>
+<!ELEMENT Codigo_CuentaCorriente (#PCDATA)>
+<!ELEMENT Cargo (#PCDATA)>

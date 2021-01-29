@@ -3,7 +3,7 @@
 <Comunidad>
     <Vecinos>
         <Vecino>
-            <Codigo></Codigo>
+            <Codigo>0001</Codigo>
             <Nombre>Manolo</Nombre>
             <Apellidos>Garcia Garrido</Apellidos>
             <Portal>10</Portal>
@@ -12,7 +12,7 @@
             <Cargo>Presidente</Cargo>
         </Vecino>
         <Vecino>
-            <Codigo></Codigo>
+            <Codigo>0002</Codigo>
             <Nombre>Federico</Nombre>
             <Apellidos>Villafuentes Cienfuegos</Apellidos>
             <Portal>11</Portal>
@@ -21,7 +21,7 @@
             <Cargo>Ninguno</Cargo>
         </Vecino>
         <Vecino>
-            <Codigo></Codigo>
+            <Codigo>0003</Codigo>
             <Nombre>Pablo</Nombre>
             <Apellidos>Valles Antolin</Apellidos>
             <Portal>11</Portal>
@@ -30,7 +30,7 @@
             <Cargo>Secretario</Cargo>
         </Vecino>
         <Vecino>
-            <Codigo></Codigo>
+            <Codigo>0004</Codigo>
             <Nombre>Alberto</Nombre>
             <Apellidos>Cortes Rodrigo</Apellidos>
             <Portal>10</Portal>
@@ -39,7 +39,7 @@
             <Cargo>Vicepresidente</Cargo>
         </Vecino>
         <Vecino>
-            <Codigo></Codigo>
+            <Codigo>0005</Codigo>
             <Nombre>Jaime</Nombre>
             <Apellidos>Campo Bascones</Apellidos>
             <Portal>11</Portal>
