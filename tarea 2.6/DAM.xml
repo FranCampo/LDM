@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DAM>
+    <modulos>
+        <lenguaje_de_marcas>
+            <horas>4<horas>
+            <caracter>obligatorio</caracter>
+            <fecha>15/09/2021-30/06/2022</fecha>
+            <alumnos>
+                <alumno nota="" faltas="">
+                    <nombre>Ana Fernandez Gutierrez</nombre>
+                    <NIF>16965696L</NIF>
+                    <Tlf>789654321</Tlf>
+                    <email>ana.fdezgtrrez@hotmail.com</email>
+                    <Direccion>C/ El Percebe, 13 de Santander</Direccion>
+                    <CP>39302</CP>
+                </alumno>
+                <alumno nota="Apto" faltas="0">
+                    <nombre>Pepito Grillo</nombre>
+                    <NIF>98765432H</NIF>
+                    <Tlf>656566555</Tlf>
+                    <email>yhyh@yahoo.com</email>
+                    <Direccion>Avd. El Pez, 5 de Suances</Direccion>
+                    <CP>39401</CP>
+            </alumnos>
+        </lenguaje_de_marcas>
+        <Sistema_de_gestio_de_informacion>
+            <horas>4</horas>
+            <caracter>obligatorio</caracter>
+            <fecha>15/09/2021-30/06/2022</fecha>
+            <alumnos>
+                <alumno nota="" faltas="">
+                    <nombre>Ana Fernandez Gutierrez</nombre>
+                    <NIF>16965696L</NIF>
+                    <Tlf>789654321</Tlf>
+                    <email>ana.fdezgtrrez@hotmail.com</email>
+                    <Direccion>C/ El Percebe, 13 de Santander</Direccion>
+                    <CP>39302</CP>
+                </alumno>
+                <alumno nota="Apto" faltas="0">
+                    <nombre>Pepito Grillo</nombre>
+                    <NIF>98765432H</NIF>
+                    <Tlf>656566555</Tlf>
+                    <email>yhyh@yahoo.com</email>
+                    <Direccion>Avd. El Pez, 5 de Suances</Direccion>
+                    <CP>39401</CP>
+                </alumno>
+            </alumnos>
+        </Sistema_de_gestio_de_informacion>
+    </modulos>
+</DAM>
