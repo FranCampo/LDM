@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Pokemon List</title>
+  </head>
+
+  <body>
+    <div id="app" class="container">
+        <div class="alert alert-info" role="alert">
+        <h1 class="alert-heading">Ciudad: {{jsonObject.Ciudad}}</h1>
+        <!--  CAMPOS SIMPLES -->
+        <ul>
+          <li>Ciudad: {{jsonObject.Ciudad}}</li>  
+          <li>Comunidad: {{jsonObject.Comunidad}}</li>
+          <li>Habitantes: {{jsonObject.Habitantes}}</li>
+        </ul>
+        <h1>Bares</h1>
+          <div v-for="Bar in jsonObject.Bares">
+            <ul>
+              <li>Nombre: {{Bar.Nombre}}</li>
+              <li>Coste: {{Bar.Coste}}</li>
+              <li>Tipo: {{Bar.Tipo}}</li>
+            </ul>
+          </div>
+        <h1>Ocio</h1>
+          <div v-for="Ocio in jsonObject.Ocio">
+            <ul>
+              <li>Nombre: {{Ocio.Nombre}}</li>
+              <li>Recomendable: {{Ocio.Recomendable}}</li>
+              <li>Tipo: {{Ocio.Tipo}}</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <script>
+
+      const App = new Vue({
+        el: '#app',
+        data: {
+          jsonObject: {}
+        },
+        methods: {
+            init() {
+              fetch("https://raw.githubusercontent.com/Arrako23/LDM/master/PR%C3%81CTICAS/P-2-LDM-2/ocio.json")
+              .then(response => response.json())
+              .then(data => (this.jsonObject = data));
+            }
+        },
+        mounted(){
+            this.init()
+        }
+      })
+    </script>
+  </body>
+</html>
