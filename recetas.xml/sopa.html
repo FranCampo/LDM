@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Sopa de Cebolla</title>
+  </head>
+
+  <body>
+    <div id="app" class="container">
+        <div class="alert alert-info" role="alert">
+        <h1 class="alert-heading">Sopa de cebolla</h1>
+        <!--  CAMPOS SIMPLES -->
+        <ul>
+            <li>Numero: {{jsonObject.numero}}</li>
+            <li>Tipo: {{jsonObject.tipo}}</li>
+        </ul>
+        <h2>Ingredientes:</h2>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Unidad</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="ingredientes in jsonObject.ingredientes">
+                <td>{{ingredientes.nombre}}</td>
+                <td v-if="ingredientes.cantidad">{{ingredientes.cantidad}}</td>
+                <td v-else>0</td>
+                <td v-if="ingredientes.unidad">{{ingredientes.unidad}}</td>
+                <td v-else>No contable</td>
+              </tr>
+            </tbody>
+        </table>
+        <h2>Proceso:</h2>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Cantidad</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="proceso in jsonObject.proceso">
+                <td>{{proceso.numero}}</td>
+                <td>{{proceso.descripcion}}</td>
+              </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+
+    <script>
+
+      const App = new Vue({
+        el: '#app',
+        data: {
+          jsonObject: {}
+        },
+        methods: {
+            init() {
+              fetch("https://raw.githubusercontent.com/byortega/LDM/master/JSON/tarea1.json")
+              .then(response => response.json())
+              .then(data => (this.jsonObject = data));
+            }
+        },
+        mounted(){
+            this.init()
+        }
+      })
+    </script>
+  </body>
+</html>
