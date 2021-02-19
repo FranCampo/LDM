@@ -19,8 +19,10 @@
             <li>Numero: {{jsonObject.numero}}</li>
             <li>Tipo: {{jsonObject.tipo}}</li>
         </ul>
-        <h2>Ingredientes:</h2>
-        <table class="table table-striped">
+        <h2> {{tituloTablaIngredientes}} </h2>
+        <button @click="showTablaIngredientes" v-if="!mostrarTablaIngredientes" class="btn btn-dark">Mostrar más</button>
+        <button @click="ocultarTablaIngredientes" v-if="mostrarTablaIngredientes" class="btn btn-dark">Mostrar menos</button>
+        <table class="table table-striped" v-if="mostrarTablaIngredientes">
             <thead>
               <tr>
                 <th scope="col">Nombre</th>
@@ -38,8 +40,10 @@
               </tr>
             </tbody>
         </table>
-        <h2>Proceso:</h2>
-        <table class="table table-striped">
+        <h2> {{tituloTablaProceso}} </h2>
+        <button @click="showTablaProceso" v-if="!mostrarTablaProceso" class="btn btn-dark">Mostrar más</button>
+        <button @click="ocultarTablaProceso" v-if="mostrarTablaProceso" class="btn btn-dark">Mostrar menos</button>
+        <table class="table table-striped" v-if="mostrarTablaProceso">
             <thead>
               <tr>
                 <th scope="col">Nombre</th>
@@ -61,17 +65,37 @@
       const App = new Vue({
         el: '#app',
         data: {
-          jsonObject: {}
+          jsonObject: {},
+          mostrarTablaIngredientes: false,
+          mostrarTablaProceso: false,
+          tituloTablaIngredientes: "Ingredientes",
+          tituloTablaProceso: "Proceso",
         },
         methods: {
             init() {
               fetch("https://raw.githubusercontent.com/byortega/LDM/master/JSON/tarea1.json")
               .then(response => response.json())
               .then(data => (this.jsonObject = data));
+            },
+            showTablaIngredientes(){
+              this.mostrarTablaIngredientes = true;
+              this.tituloTablaIngredientes = "Ingredientes (Detalles)";
+            },
+            ocultarTablaIngredientes(){
+              this.mostrarTablaIngredientes = false;
+              this.tituloTablaIngredientes = "Ingredientes";
+            },
+            showTablaProceso(){
+              this.mostrarTablaProceso = true;
+              this.tituloTablaProceso = "Proceso (Detalles)";
+            },
+            ocultarTablaProceso(){
+              this.mostrarTablaProceso = false;
+              this.tituloTablaProceso = "Proceso";
             }
         },
         mounted(){
-            this.init()
+            this.init() 
         }
       })
     </script>
