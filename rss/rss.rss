@@ -1,0 +1,30 @@
+<xml version="1.0" encoding="UTF-8">
+<rss>
+    <channel>
+        <!--INFORMACION DEL CANAL-->
+        <title>Las noticias mas importantes</title>
+        <description>Recopilacion de las noticas mas importantes</description>
+        <link>https://elmundo.es/</link>
+        <!--INFOMACION DE LOS ITEMS-->
+        <item>
+            <title>Noticia sobre el COVID-19</title>
+            <description>Incidencia del COVID-19</description>
+            <link>https://www.elmundo.es/ciencia-y-salud/salud/2021/02/24/6036854afc6c834a0e8b45ef.html</link>
+        </item>
+        <item> 
+            <title>Noticias sobre el Interior</title>
+            <description>Novedades sobre Luis Barcenas</description>
+            <link>https://www.elmundo.es/espana/2021/02/24/603666ff21efa01b428b4632.html</link>
+        </item>
+        <item>
+            <title>Noticias sobre Politica</title>
+            <description>Conversaciones entre POSE y PP</description>
+            <link>https://www.elmundo.es/espana/2021/02/24/60368720fdddff440a8b4652.html</link>
+        </item>
+        <item>
+            <title>Noticias sobre America Latina</title>
+            <description>Venezuela expulsa a la embajadora</description>
+            <link>https://www.elmundo.es/internacional/2021/02/24/60367c18fdddff07178b45d6.html</link>
+        </item>
+    </channel>
+</rss>
