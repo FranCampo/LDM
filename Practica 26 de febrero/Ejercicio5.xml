@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sudokus []>
+<peliculas>
+    <pelicula>
+        <titulo>La invencion de Hugo</titulo>
+        <estreno año="2011"/>
+        <director>Martin Scorsese</director>
+        <identificador/>
+    </pelicula>
+    <pelicula>
+        <titulo>Jhon Carter</titulo>
+        <estreno año="2012"/>
+        <director>Andrew Stanton</director>
+        <identificador/>
+    </pelicula>
+    <pelicula>
+        <titulo>Intocable</titulo>
+        <estreno año="201"/>
+        <director>Oliver Nakashe</director>
+        <identificador/>
+    </pelicula>
+</peliculas>
+<cines>
+    <cine nombre="">
+        <sala></sala>
+        <pelicula></pelicula>
+        <sesion></sesion>
+    </cine>
+</cines>
