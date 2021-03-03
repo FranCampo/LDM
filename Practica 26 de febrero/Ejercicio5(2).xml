@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cartelera [
+<!ELEMENT cartelera (peliculas,cines)>
+<!ELEMENT peliculas (pelicula*)>
+<!ELEMENT cines (cine*)>
+<!ELEMENT pelicula (#PCDATA)>
+<!ATTLIST pelicula titulo CDATA #REQUIRED
+ estreno CDATA #REQUIRED
+ director CDATA #REQUIRED
+ identificador CDATA #REQUIRED>
+<!ELEMENT cine (#PCDATA)>
+<!ATTLIST cine Nombre CDATA #REQUIRED
+ sala CDATA #REQUIRED
+ titulo CDATA #REQUIRED
+ sesion CDATA #REQUIRED>]>
+<cartelera>
+    <peliculas>
+        <pelicula titulo="La invencion de Hugo" estreno="2011" director="Martin Scorsese" identificador="1"/>
+        <pelicula titulo="Jhon Carter" estreno="2012" director="Andrew Stanton" identificador="2"/>
+        <pelicula titulo="Intocable" estreno="2012" director="Oliver Nakashe" identificador="3"/>
+    </peliculas>
+    <cines>
+        <cine Nombre="ABC el Saler" sala="6" titulo="La invencion de Hugo" sesion="18:00, 20:25, 22:50"/>
+        <cine Nombre="Lys" sala="3" titulo="Jhon Carter" sesion="16:20, 18:50"/>
+    </cines>
+</cartelera>

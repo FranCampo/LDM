@@ -1,0 +1,30 @@
+{
+    "peliculas":[
+        {
+            "titulo":"La invencion de Hugo",
+            "estreno":"2011",
+            "director":"Martin Scorsese",
+            "identificador":"1"
+        },
+        {
+            "titulo":"Jhon Carter",
+            "estreno":"2012",
+            "director":"Andrew Stanton",
+            "identificador":"2"
+        },
+        {
+            "titulo":"Intocable",
+            "estreno":"2012",
+            "director":"Oliver Nakashe",
+            "identificador":"3"
+        }
+    ],
+    "cines":[
+        {
+            "Nombre":"ABC el Saler",
+            "sala":"6",
+            "titulo":"La invencion de Hugo",
+            
+        }
+    ]
+}

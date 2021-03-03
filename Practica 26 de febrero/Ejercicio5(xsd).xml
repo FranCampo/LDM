@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE cartelera [
-<!ELEMENT cartelera (peliculas,cines)>
-<!ELEMENT peliculas (pelicula*)>
-<!ELEMENT cines (cine*)>
-<!ELEMENT pelicula (titulo,estreno,director,identificador)>
-<!ELEMENT cine (Nombre,sala,titulo,sesiones)>
-<!ELEMENT sesiones (sesion*)>
-<!ELEMENT titulo (#PCDATA)>
-<!ELEMENT estreno (#PCDATA)>
-<!ELEMENT director (#PCDATA)>
-<!ELEMENT identificador (#PCDATA)>
-<!ELEMENT Nombre (#PCDATA)>
-<!ELEMENT sala (#PCDATA)>
-<!ELEMENT sesion (#PCDATA)>]>
-<cartelera>
+<cartelera 
+    xmlns="https://www.w3schools.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.w3schools.com/xml Ejercicio5.xsd">
     <peliculas>
         <pelicula>
             <titulo>La invencion de Hugo</titulo>
