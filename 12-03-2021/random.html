@@ -14,13 +14,12 @@
 
 <body>
     <div id="app" class="container">
-        <div v-for="cat in jsonObject" class="alert alert-info" role="alert">
-            <h1>{{cat.type}}</h1>
-            <ul>
-                <li>Verificado: {{cat.status.verified}}</li>
-            </ul>
-            <h2 v-if="cat.used == true"><small style="color:green">{{cat.used}}</small></h2>
-            <h2 v-else="cat.used == false"><small style="color:red">{{cat.used}}</small></h2>
+        <div v-for="resultado in jsonObject.results" class="alert alert-info" role="alert">
+            <h1>{{resultado.name.title}}-{{resultado.name.first}}{{resultado.name.last}}</h1>
+        <h3 v-if="resultado.gender == 'female'"><small style="background-color: pink;">{{resultado.gender}}</small></h3>
+        <h3 v-else=><small style="background-color: cyan;">{{resultado.gender}}</small></h3>
+        <p>{{resultado.city}}</p>
+        <p>Numero:{{resultado.location.street.number}}</p><p>City:{{resultado.location.street.name}}</p>
         </div>
     </div>
 </body>
@@ -35,7 +34,7 @@
         },
         methods: {
             init() {
-                fetch("https://cat-fact.herokuapp.com/facts")
+                fetch("https://randomuser.me/api/")
                     .then(response => response.json())
                     .then(data => (this.jsonObject = data));
             }
