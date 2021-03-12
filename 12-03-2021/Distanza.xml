@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Distanza>
+    <sucursal>Sucursal Madrid</sucursal>
+    <almacen>Madrid</almacen>
+    <direccion>Calle España</direccion>
+    <pedidos>
+        <pedido>
+            <CodigoTrabajador>A1234567</CodigoTrabajador>
+            <NombreTrabajador>Pedro hernandez</NombreTrabajador>
+            <fechapedido>12/03/2021</fechapedido>
+            <Observaciones>urgente</Observaciones>
+            <PlazoRevision>5</PlazoRevision>
+            <articulos>
+                <articulo>
+                    <CodigoArticulo>A-S-D</CodigoArticulo>
+                    <Numero_unidades>2</Numero_unidades>
+                    <precio>10</precio>
+                    <Observacion>Ninguna</Observacion>
+                </articulo>
+            <articulos>
+        </pedido>
+    </pedidos>
+</Distanza>

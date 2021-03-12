@@ -1,0 +1,21 @@
+{
+    "sucursal":"Sucursal Madrid",
+    "almacen":"Madrid",
+    "direccion":"Calle España",
+    "pedidos":[
+         {
+            "CodigoTrabajador":"A1234567",
+            "NombreTrabajador":"Pedro Hernandez",
+            "fechapedido":"12/03/2021",
+            "Observaciones":"Urgente",
+            "PlazoRevisiones":"5",
+            "articulos":[
+                {
+                    "CodigoArticulo":"A-S-D",
+                    "Numero_undidades":"2",
+                    "precio":"10",
+                    "Observacion":"Ninguna"
+                }
+            ]
+        }
+    }
