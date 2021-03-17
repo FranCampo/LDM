@@ -2,7 +2,88 @@
     "nombre": "Sopa de cebolla",
     "comensales": [
         {
-            "unidad": "persona"
+            "unidad": "persona",
+            "numero":"4"
+        }
+    ],
+    "Ingredientes":[
+        {
+            "ingrediente":[
+                {
+                    "nombre":"cebolla",
+                    "cantidad":"1",
+                    "unidad":"kilo"
+                },
+                {
+                    "nombre":"caldo de carne",
+                    "cantidad":"2",
+                    "unidad":"litro"
+                },
+                {
+                    "nombre":"mantequilla",
+                    "cantidad":"100",
+                    "unidad":"gramos"
+                },
+                {
+                    "nombre":"Harina",
+                    "cantidad":"1",
+                    "unidad":"cucharada"
+                },
+                {
+                    "nombre":"queso emmental suizo o gruyére rallado",
+                    "cantidad":"100",
+                    "unidad":"gramos"
+                },
+                {
+                    "nombre":"caldo de carne",
+                    "cantidad":"2",
+                    "unidad":"litro"
+                },
+                {
+                    "nombre":"Pan tostado en rebanadas"
+                },
+                {
+                    "nombre":"Tomillo"
+                },
+                {
+                    "nombre":"Laurel",
+                    "cantidad":"1",
+                    "unidad":"hoja"
+                },
+                {
+                    "nombre":"Pimienta"
+                }
+            ]
+        }
+    ],
+    "Proceso":[
+        {
+            "Procesos":[
+                {
+                    "Paso":"1",
+                    "Descripcion":"Pelar y partir las cebollas en rodajas finas."
+                },
+                {
+                    "Paso":"2",
+                    "Descripcion":"Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse."
+                },
+                {
+                    "Paso":"3",
+                    "Descripcion":"Añadir la harina sin dejar de remover."
+                },
+                {
+                    "Paso":"4",
+                    "Descripcion":"Ponerlo en una cazuela con el caldo, el tomillo y el laurel."
+                },
+                {
+                    "Paso":"5",
+                    "Descripcion":"Dejar cocer a fuego lento durante unos 15 minutos."
+                },
+                {
+                    "Paso":"6",
+                    "Descripcion":"Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno."
+                }
+            ]
         }
     ]
 }
