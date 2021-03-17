@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE matricula SYSTEM "matricula.dtd">
-<matricula>
+<matricula
+    xmlns="https://www.w3schools.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.w3schools.com/xml matricula.xsd">
     <personal>
         <dni>99223366M</dni>
         <nombre>Juan Pardo Martín</nombre>
