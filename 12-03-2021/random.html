@@ -17,7 +17,7 @@
         <div v-for="resultado in jsonObject.results" class="alert alert-info" role="alert">
             <h1>{{resultado.name.title}}-{{resultado.name.first}}{{resultado.name.last}}</h1>
         <h3 v-if="resultado.gender == 'female'"><small style="background-color: pink;">{{resultado.gender}}</small></h3>
-        <h3 v-else=><small style="background-color: cyan;">{{resultado.gender}}</small></h3>
+        <h3 v-else><small style="background-color: cyan;">{{resultado.gender}}</small></h3>
         <p>{{resultado.city}}</p>
         <p>Numero:{{resultado.location.street.number}}</p><p>City:{{resultado.location.street.name}}</p>
         </div>
