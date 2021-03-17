@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE lista_de_notas SYSTEM "lista.dtd">
-<lista_de_notas>
+<lista_de_notas 
+    xmlns="https://www.w3schools.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.w3schools.com/xml lista_notas.xsd">
     <nota>
         <para>Pedro</para>
         <de>Laura</de>
