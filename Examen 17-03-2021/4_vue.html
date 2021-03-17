@@ -14,6 +14,19 @@
 
 <body>
     <div id="app" class="container">
+        <div v-for="series in jsonObject" class="alert alert-info" role="alert">
+            <h1>Nombre: {{series.show.name}}</h1>
+            <h2>ID: {{series.show.id}}</h2>
+            <h3>Tipo: {{series.show.type}}</h3>
+            <h3>Idioma :{{series.show.language}}</h3>
+            <h4>Puntuacion de la serie: {{series.score}}</h4>
+            <p v-if="series.show.runtime > 40"><small style="background-color: cyan;">Runtime: {{series.show.runtime}}</small></p>
+            <p v-else><small style="background-color: red;">Runtime: {{series.show.runtime}}</small></p>
+            <ol>
+                <li v-for="genero in series.show.genres">{{genero}}</li>
+            </ol>
+            <a :href="series.show.url">Enlace</a>
+        </div>
     </div>
 </body>
 
