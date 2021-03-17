@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+    <persona>
+        <nombre>Pepito Conejo</nombre>
+        <correo>pepito.conejo@example.org</correo>
+    </persona>
+    <persona>
+        <nombre>Juanita Banana</nombre>
+        <telefono_fijo>3141593</telefono_fijo>
+    </persona>
+</personas>
