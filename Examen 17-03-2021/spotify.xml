@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE spotify SYSTEM "spotify.dtd">
 <spotify>
     <cuenta>
-        <nombreusuario>FranCampo<nombreusuario>
+        <nombreusuario>FranCampo</nombreusuario>
         <edad>19</edad>
         <correo>examen@gmail.com</correo>
     </cuenta>
@@ -10,46 +11,46 @@
             <idplaylist>1</idplaylist>
             <nombreplaylist>Mi Playlist</nombreplaylist>
             <conjuntocanciones>
-                <cancion1>
+                <cancion>
                     <id>01</id>
-                    <cancion>primera</cancion>
+                    <nombrecancion>primera</nombrecancion>
                     <duracion>3</duracion>
                     <tipodecancion>pop</tipodecancion>
-                </cancion1>
-                <cancion2>
+                </cancion>
+                <cancion>
                     <id>02</id>
-                    <cancion>segunda</cancion>
+                    <nombrecancion>segunda</nombrecancion>
                     <duracion>4</duracion>
                     <tipodecancion>trap</tipodecancion>
-                </cancion2>
-                <cancion3>
+                </cancion>
+                <cancion>
                     <id>03</id>
-                    <cancion>tercera</cancion>
+                    <nombrecancion>tercera</nombrecancion>
                     <duracion>2</duracion>
                     <tipodecancion>clasica</tipodecancion>
-                </cancion3>
+                </cancion>
             </conjuntocanciones>
         </playlist>
         <canciones_favoritas>
             <conjuntocanciones>
-                <cancion4>
+                <cancion>
                     <id>04</id>
-                    <cancion>cuarta</cancion>
+                    <nombrecancion>cuarta</nombrecancion>
                     <duracion>4</duracion>
                     <tipodecancion>pop</tipodecancion>
-                </cancion4>
-                <cancion5>
+                </cancion>
+                <cancion>
                     <id>05</id>
-                    <cancion>quinta</cancion>
+                    <nombrecancion>quinta</nombrecancion>
                     <duracion>4</duracion>
                     <tipodecancion>clasica</tipodecancion>
-                </cancion5>
-                <cancion6>
+                </cancion>
+                <cancion>
                     <id>06</id>
-                    <cancion>sexta</cancion>
+                    <nombrecancion>sexta</nombrecancion>
                     <duracion>2</duracion>
                     <tipodecancion>trap</tipodecancion>
-                </cancion6>
+                </cancion>
             </conjuntocanciones>
         </canciones_favoritas>
         <albumes>
@@ -57,24 +58,25 @@
             <Artista>Jesus Gomez</Artista>
             <Tipo>pop</Tipo>
             <conjuntocanciones>
-                <cancion7>
+                <cancion>
                     <id>07</id>
-                    <cancion>Septima</cancion>
+                    <nombrecancion>Septima</nombrecancion>
                     <duracion>3</duracion>
                     <tipodecancion>pop</tipodecancion>
-                </cancion7>
-                <cancion8>
+                </cancion>
+                <cancion>
                     <id>08</id>
-                    <cancion>octava</cancion>
+                    <nombrecancion>octava</nombrecancion>
                     <duracion>3</duracion>
                     <tipodecancion>pop</tipodecancion>
-                </cancion8>
-                <cancion9>
+                </cancion>
+                <cancion>
                     <id>09</id>
-                    <cancion>novena</cancion>
+                    <nombrecancion>novena</nombrecancion>
                     <duracion>3</duracion>
                     <tipodecancion>pop</tipodecancion>
-                </cancion9>
+                </cancion>
             </conjuntocanciones>
         </albumes>
     </biblioteca>
+</spotify>
