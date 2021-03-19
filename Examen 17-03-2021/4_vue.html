@@ -25,6 +25,7 @@
             <ol>
                 <li v-for="genero in series.show.genres">{{genero}}</li>
             </ol>
+            <img v-if="series.show.image" :src="series.show.image.medium"/>
             <a :href="series.show.url">Enlace</a>
         </div>
     </div>
