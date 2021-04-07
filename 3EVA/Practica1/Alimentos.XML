@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alimentos>
+    <frutas>
+        <fruta id="2">
+            <nombre>pera</nombre>
+            <descripcion>fruta de año</descripcion>
+        </futa>
+        <fruta id="3">
+            <nombre>fresa</nombre>
+            <descripcion>fruta de temporada</descripcion>
+        </futa>
+        <fruta id="4">
+            <nombre>naranja</nombre>
+            <descripcion>fruta de temporada</descripcion>
+        </futa>
+    </frutas>
+</alimentos>
