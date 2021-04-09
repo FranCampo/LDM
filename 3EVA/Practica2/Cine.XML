@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cine>
+    <Peliculas>
+        <pelicula>
+            <ID_pelicula>1</ID_pelicula>
+            <Titulo>Godzilla vs Kong</Titulo>
+            <Año>2021</Año>
+            <Duracion>1h53m</Duracion>
+            <Director> 
+                <ID_director>4</ID_director>
+                <Nombre_director>Adam</Nombre_director>
+                <Apellido_Director>Wingard</Apellido_Director>
+                <Edad>38</Edad>
+                <Nacionalidad>EEUU</Nacionalidad>
+            </Director>
+            <Actor>
+                <ID_Actor></ID_Actor>
+                <Nombre_Actor></Nombre_Actor>
+                <Apellido_Actor></Apellido_Actor>
+                <Genero></Genero>
+                <Edad_Actor></Edad_Actor>
+            </Actor>
+        </pelicula>
+    </Peliculas>
+</Cine>
